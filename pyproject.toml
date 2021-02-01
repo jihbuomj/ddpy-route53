@@ -10,7 +10,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.9"
 boto3 = "^1.16.63"
-ddpy-core = "^0.1.1"
+ddpy = "^0.1.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

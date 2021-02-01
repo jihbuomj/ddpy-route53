@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ddpy-route53"
+version = "0.1.0"
+description = ""
+authors = ["Joe Moubhij <josephmoubhij@gmail.com>"]
+packages = [
+	{ include = "ddpy" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.16.63"
+ddpy-core = "^0.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
